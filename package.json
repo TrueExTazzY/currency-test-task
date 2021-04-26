@@ -1,0 +1,31 @@
+{
+  "name": "currency-test-task",
+  "version": "1.0.0",
+  "description": "currency-test-task",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start-dev": "nodemon node ./src/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrueExTazzY/currency-test-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrueExTazzY/currency-test-task/issues"
+  },
+  "homepage": "https://github.com/TrueExTazzY/currency-test-task#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7"
+  }
+}
