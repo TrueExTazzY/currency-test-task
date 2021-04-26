@@ -1,5 +1,6 @@
 currency-test-task
 
+# Текст задания
 Есть список курсов валют:
 const ticker = [
   {
@@ -25,3 +26,9 @@ Content-Type: application/json
 
 Request - { "from": "USD", "to": "EUR" }
 Response - { "value": 0.85 }
+
+# Запуск и тестирование
+## Запуск проекта
+npm run start
+## Тесты
+npm run test
